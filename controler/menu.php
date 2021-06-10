@@ -1,4 +1,4 @@
 <?php
-include 'model/menu.php';
-include 'model/menuCategory.php';
-include 'model/menuItem.php';
+include_once 'model/menu.php';
+include_once 'model/menuCategory.php';
+include_once 'model/menuItem.php';
