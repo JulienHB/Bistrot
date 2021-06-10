@@ -28,10 +28,3 @@ class Employee{
     }
 }
 
-class Waiter extends Employee{
-    private string $_order; 
-}
-
-class Cook extends Employee{
-    private string $_meal;
-}

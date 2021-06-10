@@ -16,7 +16,17 @@ class MenuItem{
         $this->_description=$description;
         $this->_price=$price;
         $this->_meal=$meal;
-    }      
+    }
+    
+    public function getName(){
+        return $this->_name;
+    }
+    public function getDescription(){
+        return $this->_description;
+    }
+    public function getPrice(){
+        return $this->_price;
+    }
 
     /**
      * @return [array] $item
