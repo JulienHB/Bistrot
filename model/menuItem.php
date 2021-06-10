@@ -22,7 +22,8 @@ class MenuItem{
      * @return [array] $item
      */
     public function getMenuItem(){
-        $item=[$this->_name,$this->_description,$this->_price,$this->_meal];
+        $item=['name'=> $this->_name,'description'=>$this->_description,'prix'=>$this->_price,'meal'=>$this->_meal];
         return $item;
     }
+
 }

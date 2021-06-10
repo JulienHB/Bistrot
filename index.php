@@ -32,3 +32,17 @@ $orderItem1=new OrderItem;
 var_dump($orderItem1);
 $table1=new Table;
 var_dump($table1);
+$value=$burger->getMenuItem();
+var_dump($value);
+
+foreach ($burger->getMenuItem() as $key => $value) {
+    if($key=='name'){
+        ?><h1><?php echo ($value)?></h1><?php
+    }
+    if($key=='description'){
+        ?><p><?php echo ($value)?></p><?php
+    }
+    if($key=='prix'){
+        ?><p>Prix <?php echo ($value)?> €</p><?php
+    }   
+}
